@@ -1,4 +1,4 @@
-# eventplannerscol
+# Event Planners Col
 
 Pagina web para Event Planner Col, empresa dedicada a la gestion y planeacion de eventos nacionales.
 
