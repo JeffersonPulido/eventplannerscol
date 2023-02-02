@@ -23,23 +23,26 @@
   </head>
 
   <body id="body">
-    <div id="modal" style="background-color: rgb(27, 99, 43); visibility: hidden; top: 2rem; opacity: 0;">
-      <div id="closeModal"><a id="close" class="closeBtnColor">
-          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <div id="modal" style="background-color: #bc8c68;  visibility: hidden; top: 2rem; opacity: 0;">
+      <div id="closeModal">
+        <a id="close" class="closeBtnColor">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">   
               <path d="M18 6L6 18M6 6l12 12"></path>
-            </svg></div>
-        </a></div>
+            </svg>
+          </div>
+        </a>
+      </div>
       <div id="modalView">
         <div id="keyInfo">
-          <p class="text">
-            Use my public key to send me encrypted messages
-          </p> <a download="" target="_blank" id="dlKey" rel="noreferrer" tabindex="-1"
-            style="background-color: rgb(106, 180, 45);" href="./San Miguel El Rosal's public key.asc">
-            <div class="icon action"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <p class="text">Use my public key to send me encrypted messages</p> 
+          <a download="" target="_blank" id="dlKey" rel="noreferrer" tabindex="-1" style="background-color: rgb(106, 180, 45);" href="">
+            <div class="icon action">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4m4-5l5 5 5-5m-5 5V3"></path>
-              </svg></div> <span class="action">Download Key</span>
+              </svg>
+            </div> 
+            <span class="action">Download Key</span>
           </a>
         </div>
         <div id="copyView">
@@ -60,163 +63,117 @@
         </div>
       </div>
     </div>
-    <header><img id="logo" src="./assets/img/logo.png" alt="Logo">
+    <header>
+      <img id="logo" src="./assets/img/logo.png" alt="Logo">
       <div id="topActions" style="display: none;">
-        <div><a id="share">
-            <div class="icon topAction"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="black"
-                stroke-width="2">
+        <div>
+          <a id="share">
+            <div class="icon topAction">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="black" stroke-width="2">
                 <circle cx="17" cy="5" r="3"></circle>
                 <circle cx="5" cy="12" r="3"></circle>
                 <circle cx="17" cy="19" r="3"></circle>
                 <path d="M7.59 13.51l6.83 3.98m-.01-10.98l-6.82 3.98"></path>
-              </svg></div>
-          </a> <a id="showQR">
-            <div class="icon topAction"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+              </svg>
+            </div>
+          </a> 
+          <a id="showQR">
+            <div class="icon topAction">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
                 clip-rule="evenodd" stroke-linejoin="round">
                 <g fill="none" stroke="black" stroke-width="2">
                   <path d="M4 4h4v4H4zm0 12h4v4H4zM16 4h4v4h-4z"></path>
                   <path d="M12 3v15a2 2 0 002 2h4a2 2 0 002-2v-4a2 2 0 00-2-2H3"></path>
                 </g>
                 <path fill="#fff" d="M15 15h2v2h-2z"></path>
-              </svg></div>
-          </a></div>
+              </svg>
+            </div>
+          </a>
+        </div>
         <!---->
       </div>
     </header>
-    <main style="background-color: rgb(27, 99, 43);">
+    <main class="mainContainer">
       <div id="profile">
-        <img src="./assets/img/photo.jpeg" alt="Photo">
         <div id="info">
-          <p class="name text">San Miguel El Rosal</p>
-          <!---->
-          <p class="jobtitle text">Agroinsumos San Miguel SAS</p>
-          <p class="jobtitle text">
-            <strong>PBX (601) 892 1011</strong>
-          </p>
+          <p class="name text">Event Planners Col</p>
+          <p class="jobtitle text">¡Alcance nacional!</p>
         </div>
       </div>
       <hr>
       <div class="actions">
-        <div id="cta"><a id="vcard" rel="noreferrer" download="" target="_blank" aria-label="Save Contact"
-            style="background-color: rgb(106, 180, 45); width: 90%; padding: 1rem 1.5rem;" href="rosal.vcf">
-            <div class="icon action"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+        <div id="cta">
+          <a id="vcard" rel="noreferrer" download="" target="_blank" aria-label="Save Contact" class="btn_download" href="./assets/contact/eventPlannersContact.vcf">
+            <div class="icon action">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
                 clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2">
                 <path d="M0 0h24v24H0z" fill="none"></path>
                 <circle cx="8.5" cy="7" r="4" transform="matrix(.875 0 0 .875 4.563 -.625)" fill="none" stroke="#fff"
                   stroke-width="2.29"></circle>
                 <path d="M5 18c0-3.863 3.137-7 7-7s7 3.137 7 7m-7-2v6m3-3l-3 3-3-3" fill="none" stroke="#fff"
                   stroke-width="2"></path>
-              </svg></div>
+              </svg>
+            </div>
             <p class="action">Guardar Contacto</p>
-          </a></div>
-        <div class="actionsC">
-          <div class="actionBtn"><a href="tel:+573138080275" target="_blank" rel="noopener noreferrer" aria-label="call"
-              style="background-color: rgb(106, 180, 45);">
-              <div class="icon action"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                  stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path
-                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z">
-                  </path>
-                </svg></div>
-            </a>
-            <p class="text">
-              Llamar
-            </p>
-          </div>
+          </a>
         </div>
-        <div class="actionsC">
-          <div class="actionBtn"><a target="_blank" rel="noopener noreferrer" aria-label="whatsApp"
-              style="background-color: rgb(106, 180, 45);" href="https://wa.me/+573138080275">
-              <div class="icon action"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                  clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" fill="#fff">
-                  <path
-                    d="M2.841 16.664A10.987 10.987 0 014.776 3.725c4.297-4.297 11.273-4.297 15.57 0 4.297 4.297 4.297 11.273 0 15.57-3.522 3.522-8.845 4.157-13.018 1.904l-4.142.784a1.002 1.002 0 01-1.167-1.178l.822-4.141zm1.428 3.078l3.045-.576c.238-.045.483-.002.692.12 3.452 2.024 7.966 1.555 10.926-1.405 3.516-3.516 3.516-9.226 0-12.742s-9.226-3.516-12.742 0a8.992 8.992 0 00-1.432 10.86 1 1 0 01.116.696l-.605 3.047z">
-                  </path>
-                  <path
-                    d="M17.5 14.002v1.512a1.01 1.01 0 01-1.006 1.006c-.03 0-.06-.002-.09-.004a9.948 9.948 0 01-4.34-1.544 9.811 9.811 0 01-3.016-3.017 9.944 9.944 0 01-1.544-4.359A1.01 1.01 0 018.505 6.5h1.508a1.01 1.01 0 011.006.865c.063.483.181.957.352 1.413.137.367.049.782-.227 1.061l-.638.638a8.039 8.039 0 003.017 3.017l.638-.639a1.008 1.008 0 011.061-.226c.456.17.93.288 1.413.352.503.071.877.513.865 1.021z"
-                    fill-rule="nonzero"></path>
-                </svg></div>
-            </a>
-            <p class="text">
-              WhatsApp
-            </p>
+        <div class="actionsColumn">
+          <div class="actionsC">
+            <div class="actionBtn">
+              <a href="tel:+573138080275" target="_blank" rel="noopener noreferrer" aria-label="call" class="actionsBtnSmall">
+                <div class="icon action">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z">
+                    </path>
+                  </svg>
+                </div>
+              </a>
+              <p class="text">
+                Llamar
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="actionsC">
-          <div class="actionBtn"><a href="tel:6018921011" target="_blank" rel="noopener noreferrer" aria-label="Home"
-              style="background-color: rgb(106, 180, 45);">
-              <div class="icon action"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
-                  <path
-                    d="M214.71 73.1l-18.74 24.26a4.636 4.636 0 01-3.68 1.81c-.53 0-1.08-.06-1.6-.26L155.57 86.2a4.683 4.683 0 01-3.03-5.16l2.19-13.53c-.7-2.17-6.53-15.18-46.74-15.18-39.84 0-45.94 12.73-46.75 15.23l2.22 13.48c.37 2.23-.92 4.38-3.03 5.16L25.32 98.91c-.52.19-1.05.28-1.59.28-1.42 0-2.82-.65-3.74-1.83L1.26 73.1a4.63 4.63 0 01-.71-4.27c.53-1.7 14.38-40.74 107.45-40.74 93.04 0 106.92 39.04 107.45 40.74.49 1.45.21 3.07-.74 4.27zm-23.88 60.97v29c0 13.7-11.15 24.85-24.85 24.85h-24.85c0-4.58-3.7-8.28-8.28-8.28H83.13c-4.58 0-8.28 3.71-8.28 8.28H50c-13.71 0-24.85-11.15-24.85-24.85v-29c0-5.45 3.41-10.97 8.29-13.4l25.73-12.88c.51-.28 1.57-1.34 1.87-1.88l1.4-2.81 11.45-22.9c1.17-2.33 3.07-4.3 5.29-5.74 2.44-1.58 5.27-2.54 8.12-2.54h41.42c2.85 0 5.7.97 8.13 2.56 2.22 1.45 4.11 3.4 5.27 5.73l11.44 22.88 1.42 2.85c.28.51 1.34 1.57 1.88 1.87l25.7 12.86c4.86 2.43 8.27 7.94 8.27 13.4zm-53.85-12.43c0-16.02-12.99-29-29-29s-29 12.98-29 29c0 16 12.99 29 29 29 3.95 0 7.7-.81 11.12-2.23-2.69-2.43-3.67-6.34-1.97-9.76 2.05-4.09 7.03-5.74 11.12-3.7l4.21 2.1c2.82-4.47 4.52-9.75 4.52-15.41zm-28.99-12.43c-6.86 0-12.43 5.57-12.43 12.43s5.57 12.43 12.43 12.43 12.43-5.57 12.43-12.43-5.57-12.43-12.43-12.43z"
-                    fill="#fff"></path>
-                </svg></div>
-            </a>
-            <p class="text">
-              PBX
-            </p>
+          <div class="actionsC">
+            <div class="actionBtn">
+              <a target="_blank" rel="noopener noreferrer" aria-label="whatsApp" class="actionsBtnSmall" href="https://wa.me/+573138080275">
+                <div class="icon action">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                    clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" fill="#fff">
+                    <path
+                      d="M2.841 16.664A10.987 10.987 0 014.776 3.725c4.297-4.297 11.273-4.297 15.57 0 4.297 4.297 4.297 11.273 0 15.57-3.522 3.522-8.845 4.157-13.018 1.904l-4.142.784a1.002 1.002 0 01-1.167-1.178l.822-4.141zm1.428 3.078l3.045-.576c.238-.045.483-.002.692.12 3.452 2.024 7.966 1.555 10.926-1.405 3.516-3.516 3.516-9.226 0-12.742s-9.226-3.516-12.742 0a8.992 8.992 0 00-1.432 10.86 1 1 0 01.116.696l-.605 3.047z">
+                    </path>
+                    <path
+                      d="M17.5 14.002v1.512a1.01 1.01 0 01-1.006 1.006c-.03 0-.06-.002-.09-.004a9.948 9.948 0 01-4.34-1.544 9.811 9.811 0 01-3.016-3.017 9.944 9.944 0 01-1.544-4.359A1.01 1.01 0 018.505 6.5h1.508a1.01 1.01 0 011.006.865c.063.483.181.957.352 1.413.137.367.049.782-.227 1.061l-.638.638a8.039 8.039 0 003.017 3.017l.638-.639a1.008 1.008 0 011.061-.226c.456.17.93.288 1.413.352.503.071.877.513.865 1.021z"
+                      fill-rule="nonzero"></path>
+                  </svg>
+                </div>
+              </a>
+              <p class="text">WhatsApp</p>
+            </div>
           </div>
-        </div>
-        <div class="actionsC">
-          <div class="actionBtn"><a href="mailto:elrosal@sanmiguelsas.com" target="_blank" rel="noopener noreferrer"
-              aria-label="email" style="background-color: rgb(106, 180, 45);">
-              <div class="icon action"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                  stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                  <path d="M22 6l-10 7L2 6"></path>
-                </svg></div>
-            </a>
-            <p class="text">
-              Email
-            </p>
+          <div class="actionsC">
+            <div class="actionBtn">
+              <a href="tel:6018921011" target="_blank" rel="noopener noreferrer" aria-label="Home" class="actionsBtnSmall">
+                <div class="icon action">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+                    <path
+                      d="M214.71 73.1l-18.74 24.26a4.636 4.636 0 01-3.68 1.81c-.53 0-1.08-.06-1.6-.26L155.57 86.2a4.683 4.683 0 01-3.03-5.16l2.19-13.53c-.7-2.17-6.53-15.18-46.74-15.18-39.84 0-45.94 12.73-46.75 15.23l2.22 13.48c.37 2.23-.92 4.38-3.03 5.16L25.32 98.91c-.52.19-1.05.28-1.59.28-1.42 0-2.82-.65-3.74-1.83L1.26 73.1a4.63 4.63 0 01-.71-4.27c.53-1.7 14.38-40.74 107.45-40.74 93.04 0 106.92 39.04 107.45 40.74.49 1.45.21 3.07-.74 4.27zm-23.88 60.97v29c0 13.7-11.15 24.85-24.85 24.85h-24.85c0-4.58-3.7-8.28-8.28-8.28H83.13c-4.58 0-8.28 3.71-8.28 8.28H50c-13.71 0-24.85-11.15-24.85-24.85v-29c0-5.45 3.41-10.97 8.29-13.4l25.73-12.88c.51-.28 1.57-1.34 1.87-1.88l1.4-2.81 11.45-22.9c1.17-2.33 3.07-4.3 5.29-5.74 2.44-1.58 5.27-2.54 8.12-2.54h41.42c2.85 0 5.7.97 8.13 2.56 2.22 1.45 4.11 3.4 5.27 5.73l11.44 22.88 1.42 2.85c.28.51 1.34 1.57 1.88 1.87l25.7 12.86c4.86 2.43 8.27 7.94 8.27 13.4zm-53.85-12.43c0-16.02-12.99-29-29-29s-29 12.98-29 29c0 16 12.99 29 29 29 3.95 0 7.7-.81 11.12-2.23-2.69-2.43-3.67-6.34-1.97-9.76 2.05-4.09 7.03-5.74 11.12-3.7l4.21 2.1c2.82-4.47 4.52-9.75 4.52-15.41zm-28.99-12.43c-6.86 0-12.43 5.57-12.43 12.43s5.57 12.43 12.43 12.43 12.43-5.57 12.43-12.43-5.57-12.43-12.43-12.43z"
+                      fill="#fff"></path>
+                  </svg>
+                </div>
+              </a>
+              <p class="text">PBX</p>
+            </div>
           </div>
-        </div>
-        <div class="actionsC">
-          <div class="actionBtn"><a target="_blank" rel="noopener noreferrer" aria-label="website"
-              style="background-color: rgb(106, 180, 45);" href="https://sanmiguelsas.com">
-              <div class="icon action"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                  stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z">
-                  </path>
-                </svg></div>
-            </a>
-            <p class="text">
-              Pagina Web
-            </p>
-          </div>
-        </div>
-        <div class="actionsC">
-          <div class="actionBtn"><a target="_blank" rel="noopener noreferrer" aria-label="location"
-              style="background-color: rgb(106, 180, 45);" href="https://goo.gl/maps/XR3CbAReRaAiECtg9">
-              <div class="icon action"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                  clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#fff"
-                  stroke-width="2">
-                  <circle cx="12" cy="10" r="3"></circle>
-                  <path d="M12 1c4.967 0 9 4.033 9 9 0 7-9 13-9 13s-9-6-9-13c0-4.967 4.033-9 9-9z"></path>
-                </svg></div>
-            </a>
-            <p class="text">
-              Ubicacion
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="attachments">
-        <h2 class="section text"></h2>
-        <div>
-          <div class="content embedded"><iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26627.691388197905!2d-74.265706!3d4.852401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70f8d150ac194ad5!2sAgroinsumos%20San%20Miguel%20Sas%20El%20Rosal!5e1!3m2!1ses!2sco!4v1655157268981!5m2!1ses!2sco"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
       </div>
       <!--REDES-->
       <div>
         <div class="actions secondary">
           <div class="">
-            <a href="https://instagram.com/sanmiguelsas_co" target="_blank" rel="noopener noreferrer"
-              aria-label="instagram" class="redes">
+            <a href="https://instagram.com/event.planners.col" target="_blank" rel="noopener noreferrer" aria-label="instagram" class="redes">
               <i class="fa-brands fa-instagram"></i> Instagram
             </a>
           </div>

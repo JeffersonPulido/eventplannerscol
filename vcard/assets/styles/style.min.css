@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100;500&display=swap");
 
 body {
   margin: 0 auto;
@@ -8,6 +8,42 @@ body {
   color: #fff;
   position: relative;
 }
+
+.mainContainer {
+  background-color: #d9b090;
+}
+
+.btn_download {
+  background-color: #bc8c68;
+  color: #231f20;
+  width: 90%;
+  padding: 1rem 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn_download:hover {
+  background-color: #a37367;
+  transition: 0.3s ease-in-out;
+}
+
+.actionsBtnSmall{
+  background-color: #bc8c68;
+  color: #231f20;
+}
+
+.actionsBtnSmall:hover{
+  background-color: #a37367;
+  transition: 0.3s ease-in-out;
+}
+
+.actionsColumn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #modal {
   position: absolute;
   z-index: 1;
@@ -95,12 +131,12 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  padding: 6rem 3rem;
+  padding: 1rem 3rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 #logo {
-  max-height: 6rem;
+  max-height: 15rem;
   text-align: center;
   color: gray;
   pointer-events: none;
@@ -136,7 +172,7 @@ header {
 }
 main {
   padding: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #profile {
   display: -webkit-box;
@@ -191,7 +227,7 @@ main {
   font-weight: bold;
   font-size: 1.25rem;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .jobtitle {
   font-size: 1rem;
@@ -203,12 +239,12 @@ main {
   white-space: pre-line;
   line-height: 1.5;
   /* margin: 1rem; */
-        margin: -2rem 1rem 1rem 1rem;
+  margin: -2rem 1rem 1rem 1rem;
 }
 .textC {
   font-size: 1rem;
   margin: 2rem 1rem;
-        margin: -2rem 1rem 1rem 1rem;
+  margin: -2rem 1rem 1rem 1rem;
 }
 .actions {
   margin-top: 2rem;
@@ -224,6 +260,7 @@ main {
 .actionsC {
   width: 33.33%;
 }
+
 .actionBtn {
   padding: 0.5rem;
   display: -webkit-box;
@@ -446,24 +483,35 @@ footer a {
   color: inherit;
 }
 
-
-.pronouns{display:block;font-size:.9rem;opacity:.8;font-weight:normal;margin:0 0 .5rem}
+.pronouns {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-weight: normal;
+  margin: 0 0 0.5rem;
+}
 
 .bizaddr {
   font-size: 0.8rem;
   opacity: 0.6;
 }
 
-.redes{
-  font-family: 'Cookie', cursive;
+.redes i {
+  -webkit-text-stroke: 0px rgba(114, 114, 114, 0.644);
+  text-shadow: 5px 5px 8px rgba(255, 255, 255, 0);
+}
 
-  color: white; 
+.redes {
+  font-family: "Cookie", cursive;
+  color: white;
+  -webkit-text-stroke: 0.5px rgba(114, 114, 114, 0.644);
+  text-shadow: 5px 5px 8px rgb(0 0 0);
   font-size: 2.5rem;
 }
 
-.fa-instagram{
+.fa-instagram {
   font-size: 2rem;
-  background: linear-gradient(#ffee52,#d464df);
+  background: linear-gradient(#f5e022, #cf21df);
   -webkit-background-clip: text;
   color: transparent;
 }

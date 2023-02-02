@@ -45,14 +45,16 @@ input[type='range']::-webkit-slider-thumb {
 .text {
   text-align: center;
   line-height: 1.5;
-  color: #fff !important
+  color: #231f20 !important;
 }
 
 .footerText{
     text-decoration: none;
     letter-spacing: 1px;
     color: white;
+    text-shadow: 5px 5px 8px rgb(0 0 0);
 }
 .footerText:hover{
     color: gray;
+    text-shadow: 5px 5px 8px rgb(0 0 0);
 }
