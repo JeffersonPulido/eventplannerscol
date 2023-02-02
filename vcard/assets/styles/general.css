@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../../../assets/fonts/Raleway.ttf);
+}
+@font-face {
+  font-family: stayWinter;
+  src: url(../../../assets/fonts/stayWinter.otf);
+}
+
 
 #body {
   font-family: sans-serif;
@@ -31,6 +40,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .action {
   color: #fff;
+  font-family: Raleway;
 }
 
 .card {
@@ -46,6 +56,7 @@ input[type='range']::-webkit-slider-thumb {
   text-align: center;
   line-height: 1.5;
   color: #231f20 !important;
+  font-family: Raleway;
 }
 
 .footerText{
@@ -53,8 +64,9 @@ input[type='range']::-webkit-slider-thumb {
     letter-spacing: 1px;
     color: white;
     text-shadow: 5px 5px 8px rgb(0 0 0);
+    font-family: Raleway;
 }
 .footerText:hover{
-    color: gray;
+    color: whitesmoke;
     text-shadow: 5px 5px 8px rgb(0 0 0);
 }

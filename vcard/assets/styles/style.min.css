@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100;500&display=swap");
+@font-face {
+  font-family: Raleway;
+  src: url(../../../assets/fonts/Raleway.ttf);
+}
+@font-face {
+  font-family: stayWinter;
+  src: url(../../../assets/fonts/stayWinter.otf);
+}
 
 body {
   margin: 0 auto;
@@ -220,6 +228,7 @@ main {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   line-height: 0.5;
   word-break: break-word;
 }
@@ -247,7 +256,7 @@ main {
   margin: -2rem 1rem 1rem 1rem;
 }
 .actions {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,22 +505,24 @@ footer a {
   opacity: 0.6;
 }
 
-.redes i {
-  -webkit-text-stroke: 0px rgba(114, 114, 114, 0.644);
-  text-shadow: 5px 5px 8px rgba(255, 255, 255, 0);
+.containerRedes{
+  margin-bottom: 1rem;
 }
 
 .redes {
-  font-family: "Cookie", cursive;
+  font-family: stayWinter;
   color: white;
   -webkit-text-stroke: 0.5px rgba(114, 114, 114, 0.644);
   text-shadow: 5px 5px 8px rgb(0 0 0);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
 }
 
-.fa-instagram {
-  font-size: 2rem;
-  background: linear-gradient(#f5e022, #cf21df);
-  -webkit-background-clip: text;
-  color: transparent;
+.fa-mouse-pointer{
+  font-size: 1rem;
+}
+
+.fa-brands{
+  font-size: 1.5rem;
 }
