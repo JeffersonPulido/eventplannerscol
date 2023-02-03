@@ -2,6 +2,7 @@
   font-family: Raleway;
   src: url(../../../assets/fonts/Raleway.ttf);
 }
+
 @font-face {
   font-family: stayWinter;
   src: url(../../../assets/fonts/stayWinter.otf);
@@ -59,14 +60,23 @@ input[type='range']::-webkit-slider-thumb {
   font-family: Raleway;
 }
 
-.footerText{
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: #231f20 !important;
-    font-family: Raleway;
-    font-size: 14px;
-    text-align: center;
+.footerText {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #231f20 !important;
+  font-family: Raleway;
+  font-size: 14px;
+  text-align: center;
 }
-.footerText:hover{
-    color: whitesmoke;
+
+.footerText:hover {
+  color: whitesmoke;
+}
+
+.svgwave {
+  transform: rotateX(180deg);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -40px;
 }

@@ -22,6 +22,8 @@ body {
 
 .mainContainer {
   background-color: #d9b090;
+  position: relative;
+  top: -45px;
 }
 
 .btn_download {
