@@ -18,12 +18,12 @@ body {
   max-width: 30rem;
   color: #fff;
   position: relative;
+  overflow-x: hidden;
 }
 
 .mainContainer {
   background-color: #d9b090;
   position: relative;
-  top: -45px;
 }
 
 .btn_download {
@@ -50,13 +50,13 @@ body {
 }
 
 .actionsColumn {
-  display: flex;
+  display: grid;
   text-align: center;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 3.2rem;
+  gap: 2rem;
   z-index: 5;
+  grid-template-columns: repeat(2,50%);
 }
 
 #modal {
@@ -89,12 +89,12 @@ body {
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   text-align: center;
   position: relative;
-  top: -4px;
+  top: -12px;
 }
 
 #modalView,
@@ -162,13 +162,13 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  padding: 3.5rem 3rem;
+  padding: 3.5rem 3rem 3.5rem 2.5rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 #logo {
-  max-height: 12rem;
+  max-height: 11rem;
   text-align: center;
   color: gray;
   pointer-events: none;
@@ -275,7 +275,8 @@ main {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 2rem 0rem 1rem 0rem;
-  gap: 3.2rem;
+  gap: 2rem;
+  position: relative;
 }
 
 .actionBtn {
@@ -297,7 +298,7 @@ main {
 
 .actionBtn a {
   border-radius: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   line-height: 0;
   display: flex;
 }
@@ -308,7 +309,7 @@ main {
 }
 
 .secondary {
-  margin-top: 1.25rem;
+  padding: 0rem 0rem 0.5rem 0rem;
   z-index: 5;
   position: sticky;
 }
