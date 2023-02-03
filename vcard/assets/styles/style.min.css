@@ -15,6 +15,7 @@ body {
   max-width: 30rem;
   color: #fff;
   position: relative;
+  overflow-y: hidden;
 }
 
 .mainContainer {
@@ -50,6 +51,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 #modal {
@@ -139,12 +141,12 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  padding: 1rem 3rem;
+  padding: 3.5rem 3rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 #logo {
-  max-height: 15rem;
+  max-height: 12rem;
   text-align: center;
   color: gray;
   pointer-events: none;
@@ -265,6 +267,8 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding: 2rem 0rem 1rem 0rem;
+  gap: 2rem;
 }
 .actionsC {
   width: 33.33%;
@@ -523,6 +527,6 @@ footer a {
   font-size: 1rem;
 }
 
-.fa-brands{
+.fa-brands, .fa-globe{
   font-size: 1.5rem;
 }
