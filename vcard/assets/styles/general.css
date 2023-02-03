@@ -89,7 +89,7 @@ input[type='range']::-webkit-slider-thumb {
   position: absolute;
   background: #ffffff;
   left: 50%;
-  z-index: 1;
+  z-index: 10;
   top: 0px;
   padding: 0;
   margin: 0;
@@ -118,17 +118,31 @@ input[type='range']::-webkit-slider-thumb {
   margin: 0;
 }
 
-.descApp a{
+.descApp a {
   color: white;
   text-decoration: none;
   font-size: 1rem;
   font-family: 'Raleway';
 }
 
-.descApp{
+.descApp {
   padding: 0;
   margin: 0;
 }
 
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+  flex-wrap: wrap;
+  text-align: end;
+  margin-right: 10px;
+}
 
-
+.contentRight{
+  display: flex;
+  align-content: start;
+  flex-wrap: wrap;
+  text-align: end;
+  margin-left: 10px;
+}
