@@ -274,7 +274,6 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 2rem 0rem 1rem 0rem;
   gap: 2rem;
   position: relative;
 }
