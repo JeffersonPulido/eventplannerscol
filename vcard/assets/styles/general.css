@@ -133,5 +133,5 @@ input[type='range']::-webkit-slider-thumb {
   align-content: start;
   flex-wrap: wrap;
   text-align: end;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
