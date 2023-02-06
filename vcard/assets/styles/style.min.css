@@ -56,7 +56,7 @@ body {
   justify-content: center;
   gap: 2rem;
   z-index: 5;
-  grid-template-columns: repeat(2,50%);
+  grid-template-columns: 35% 1fr;
 }
 
 #modal {
@@ -296,10 +296,6 @@ main {
 
 .App{
   align-items: flex-end;
-}
-
-.Insta{
-  align-items: flex-start;
 }
 
 .actionBtn a {

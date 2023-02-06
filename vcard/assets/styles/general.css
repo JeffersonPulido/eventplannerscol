@@ -8,8 +8,6 @@
   src: url(../../../assets/fonts/stayWinter.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100;500&display=swap');
-
 input[type='range']::-moz-range-track {
   background: none;
 }
@@ -83,12 +81,12 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .linea {
-  height: 100vh;
+  height: 100%;
   width: 2.5px;
   display: flex;
   position: absolute;
   background: #ffffff;
-  left: 50%;
+  left: 47%;
   z-index: 10;
   top: 0px;
   padding: 0;
@@ -104,16 +102,7 @@ input[type='range']::-webkit-slider-thumb {
   font-size: 1.2rem;
   color: white;
   font-weight: bold;
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-.titleInsta {
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-  font-family: 'Cookie', cursive;
+  font-family: 'stayWinter';
   padding: 0;
   margin: 0;
 }
@@ -144,5 +133,5 @@ input[type='range']::-webkit-slider-thumb {
   align-content: start;
   flex-wrap: wrap;
   text-align: end;
-  margin-left: 10px;
+  margin-left: 4rem;
 }
