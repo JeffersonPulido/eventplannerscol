@@ -22,6 +22,8 @@ body {
   overflow-y: hidden;
 }
 
+
+
 .mainContainer {
   background-color: #d9b090;
   z-index: 5;
@@ -245,24 +247,14 @@ main {
   margin-top: -6rem;
 }
 
-#info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  line-height: 0.5;
-  word-break: break-word;
+.jobtitle{
+  text-align: center;
+  z-index: 10;
+  color: #bc8c68;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  -webkit-text-stroke: 0.5px #a37367;
+  text-shadow: 4px 4px 10px #bc8c68;
 }
 
 .actions {
@@ -436,4 +428,11 @@ footer {
 footer a {
   text-decoration: underline;
   color: inherit;
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1200px) {
+  body{
+    overflow-y: auto;
+  }
 }
