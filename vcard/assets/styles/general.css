@@ -136,10 +136,17 @@ input[type='range']::-webkit-slider-thumb {
   margin-left: 3rem;
 }
 
-/* DESKTOP BIG*/
-@media (min-width: 1200px) {
+/* DESKTOP BIG */
+@media only screen and (min-width: 900px) {  
   .linea{
     left: 14.4rem;
     top: 100px;
+  } 
+} 
+
+/* IPHONE 13 PRO MAX */
+@media only screen and (max-width: 500px) and (min-width: 428px) {  
+  .linea{
+    left: 12.8rem;
   }
 }

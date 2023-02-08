@@ -249,14 +249,14 @@ main {
 
 .jobtitle{
   text-align: center;
-  z-index: 10;
+  z-index: 15;
   color: #bc8c68;
   font-weight: bold;
   letter-spacing: 2.5px;
   -webkit-text-stroke: 0.5px #a37367;
-  text-shadow: 4px 4px 10px #bc8c68;
-  margin: 0rem 0rem 1rem 0rem;
+  margin: 1rem 0rem -0.5rem 0rem;
   font-family: 'Raleway';
+  font-size: 10px;
 }
 
 .actions {
