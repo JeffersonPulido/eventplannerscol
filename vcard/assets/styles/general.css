@@ -55,7 +55,7 @@ input[type='range']::-webkit-slider-thumb {
   letter-spacing: 1px;
   color: #231f20 !important;
   font-family: Raleway;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ input[type='range']::-webkit-slider-thumb {
   align-content: start;
   flex-wrap: wrap;
   text-align: end;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 /* DESKTOP BIG */

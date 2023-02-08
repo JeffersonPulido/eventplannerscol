@@ -59,7 +59,7 @@ body {
   justify-content: center;
   gap: 2rem;
   z-index: 5;
-  grid-template-columns: 35% 1fr;
+  grid-template-columns: 38% 1fr;
 }
 
 #modal {
@@ -92,12 +92,12 @@ body {
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.3rem;
   display: flex;
   justify-content: center;
   text-align: center;
   position: relative;
-  top: -12px;
+  top: -5px;
 }
 
 #modalView,
@@ -171,7 +171,7 @@ header {
 }
 
 #logo {
-  max-height: 11rem;
+  max-height: 9rem;
   text-align: center;
   color: gray;
   pointer-events: none;
@@ -250,11 +250,12 @@ main {
 .jobtitle{
   text-align: center;
   z-index: 15;
-  color: #bc8c68;
-  font-weight: bold;
+  color: #000000;
+  font-weight: 100;
   margin: 1rem 0rem -0.5rem 0rem;
   font-family: 'Raleway';
   font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 .actions {
@@ -292,7 +293,7 @@ main {
 
 .actionBtn a {
   border-radius: 100%;
-  padding: 1.5rem;
+  padding: 1.1rem;
   line-height: 0;
   display: flex;
 }
