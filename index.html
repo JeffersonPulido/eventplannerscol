@@ -22,13 +22,14 @@
 
 <body>
   <header>
+    <!--NAVBAR-->
     <nav class="nav">
       <input type="checkbox" id="nav-check">
       <!--MENU NAVBAR-->
       <div class="nav-links">
-        <a href="" target="_blank">Inicio</a>
-        <a href="" target="_blank">Servicios</a>
-        <a href="" target="_blank">Testimonios</a>
+        <a href="#home" target="_blank">Inicio</a>
+        <a href="#services" target="_blank">Servicios</a>
+        <a href="#testimonials" target="_blank">Testimonios</a>
       </div>
       <!--LOGO NAVBAR-->
       <div class="nav-header">
@@ -52,10 +53,20 @@
     </nav>
   </header>
   <main>
-    <section>
-      1
+    <!--INIT PAGE INFORMATION-->
+    <section class="infoContainer" id="home">
+      <div class="imagesLeft">
+        <img src="./assets/images/info.png" alt="">
+      </div>
+      <div class="textRight">
+        <p class="infoTitle">Bienvenidos</p>
+        <p class="infoDesc">Te ayudamos a organizar el evento perfecto. Desde fiestas privadas hasta bodas o eventos corporativos, ofrecemos un servicio de planificación de eventos profesional para todas sus necesidades. Haremos de tu evento algo memorable.</p>
+        <div class="btnMore">
+          <a class="btn" href="#history">Leer más</a>
+        </div>        
+      </div>
     </section>
-    <section>
+    <section class="historyContainer" id="history">
       2
     </section>
     <section>
