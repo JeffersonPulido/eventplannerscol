@@ -14,6 +14,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*VAR*/
+    --colortitulos: goldenrod;
+    --colorletraoscuro: #603813;
+    --colorletraclaro: #d7a87c;
 }
 
 /*NAVBAR*/
@@ -35,7 +39,7 @@
 .nav>.nav-header>.nav-title {
     display: inline-block;
     font-size: 22px;
-    color: #603813;
+    color: var(--colorletraoscuro);
     padding: 10px 10px 10px 10px;
 }
 
@@ -57,14 +61,14 @@ img.logoP {
     gap: 50px;
     padding: 13px 20px 13px 20px;
     text-decoration: none;
-    color: goldenrod;
+    color: var(--colortitulos);
     font-size: 18px;
 }
 
 .nav>.nav-links>a {
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: goldenrod;
+    color: var(--colortitulos);
     transition: .1s ease-in-out;
 }
 
@@ -93,7 +97,7 @@ img.logoP {
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid goldenrod;
+        border-top: 2px solid var(--colortitulos);
     }
 
     .nav>.nav-links {

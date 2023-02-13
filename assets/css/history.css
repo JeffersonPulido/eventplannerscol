@@ -1,0 +1,102 @@
+/*FONTS*/
+@font-face {
+    font-family: Raleway;
+    src: url(../../../assets/fonts/Raleway.ttf);
+}
+
+@font-face {
+    font-family: stayWinter;
+    src: url(../../../assets/fonts/stayWinter.otf);
+}
+
+/*ROOT*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*VAR*/
+    --colortitulos: goldenrod;
+    --colorletraoscuro: #603813;
+    --colorletraclaro: #d7a87c;
+    --colorgrisclaro: #ebd9c9;
+    --colornegro: #333333;
+}
+
+/*HISTORY*/
+.historyContainer {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--colorletraclaro);
+    margin-top: -40px;
+    z-index: 100;
+    position: relative;
+    padding: 0rem 1rem;
+}
+
+.titleContainer {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway';
+    display: flex;
+    border-bottom: 2px solid white;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+
+.contentContainer {
+    display: flex;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    color: var(--colornegro);
+    margin: 1.5rem 10rem;
+    flex-direction: column;
+}
+
+.contentContainer span {
+    color:white;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-family: 'stayWinter';
+    font-weight: 600;
+}
+
+/*ANIMATION*/
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
