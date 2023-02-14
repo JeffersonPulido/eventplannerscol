@@ -114,9 +114,10 @@ p.infoDesc {
     transition: .5s ease-in-out;
     font-family: 'Raleway';
     font-weight: 400;
+    z-index: 2;
 }
 
-.btn:hover{
+.btn:hover {
     color: white;
     transition: .5s ease-in-out;
     font-weight: 600;
@@ -159,20 +160,161 @@ p.infoDesc {
     left: 8rem;
 }
 
+/*ANIMACIONES*/
+.bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}
+
+@-webkit-keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 /* MOBILE */
 @media screen and (max-width: 767px) {
-    .infoContainer{
+    .infoContainer {
         grid-template-columns: none;
         grid-template-rows: 1fr;
     }
-    .imagesLeft img{
+
+    .imagesLeft img {
         /* width: 80%; */
         display: none;
     }
+
     .infoTitle::before {
         content: '';
         display: none;
     }
+
     .btnMore {
         margin-top: 2rem;
     }
@@ -180,12 +322,14 @@ p.infoDesc {
 
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
-    .infoContainer{
+    .infoContainer {
         margin: 8rem 1rem;
     }
-    p.infoTitle{
+
+    p.infoTitle {
         font-size: 4rem;
     }
+
     .infoTitle::before {
         content: '';
         position: absolute;
@@ -202,13 +346,14 @@ p.infoDesc {
 }
 
 /* TABLET */
-@media screen and (min-width: 767px) and (max-width: 1023px){
-    .infoContainer{
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .infoContainer {
         grid-template-columns: none;
         grid-template-rows: 1fr;
         margin-top: 5rem;
     }
-    .textRight{
+
+    .textRight {
         margin-top: 2rem;
     }
 }

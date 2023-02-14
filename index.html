@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/navbar.css">
   <link rel="stylesheet" href="./assets/css/info.css">
@@ -57,11 +59,11 @@
   <main>
     <!--INIT PAGE INFORMATION-->
     <section class="infoContainer" id="home">
-      <div class="imagesLeft">
+      <div class="imagesLeft zoomIn">
         <img src="./assets/images/info.png" alt="">
       </div>
       <div class="textRight">
-        <p class="infoTitle">Bienvenidos</p>
+        <p class="infoTitle bounceIn">Bienvenidos</p>
         <p class="infoDesc">Te ayudamos a organizar el evento perfecto. Desde fiestas privadas hasta bodas o eventos
           corporativos, ofrecemos un servicio de planificación de eventos profesional para todas sus necesidades.
           Haremos de tu evento algo memorable.</p>
@@ -128,7 +130,7 @@
         queríamos mejorar era en el arte de hacer todo único; después de ser constantes, 
         finalmente lo hicimos. ¡Finalmente armamos nuestro emprendimiento! Es un momento de orgullo para nosotras. 
         Nuestro objetivo es seguir adelante y brindar el mejor servicio que podamos brindar como planificadoras de eventos. 
-        <span class="slideInLeft">Ahora vamos a hacer magia.</span>
+        <span data-aos="fade-up" data-aos-delay="300">Ahora vamos a hacer magia.</span>
       </div>
       <div class="btnMore btnRight">
         <a class="btn" href="#history">Leer más</a>
@@ -185,6 +187,11 @@
       4
     </section>
   </main>
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
