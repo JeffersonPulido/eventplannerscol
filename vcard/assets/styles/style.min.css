@@ -28,7 +28,7 @@ body {
   background-color: #d9b090;
   z-index: 5;
   position: relative;
-  top: -0.5rem;
+  top: -3.5rem;
 }
 
 .btn_download {
@@ -227,6 +227,10 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
+  top: -15px;
+  position: relative;
 }
 
 #profile img {
@@ -310,7 +314,7 @@ main {
   position: relative;
   margin: 0;
   padding: 0;
-  top: -3rem;
+  top: -6rem;
   display: flex;
   text-align: center;
   align-items: center;
