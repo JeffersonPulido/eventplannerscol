@@ -82,11 +82,11 @@ input[type='range']::-webkit-slider-thumb {
 
 .linea {
   height: 100%;
-  width: 2.5px;
+  width: 1.5px;
   display: flex;
   position: absolute;
   background: #ffffff;
-  left: 12.25rem;
+  left: 12.4rem;
   z-index: 10;
   top: 0px;
   padding: 0;
@@ -139,7 +139,7 @@ input[type='range']::-webkit-slider-thumb {
 /* DESKTOP BIG */
 @media only screen and (min-width: 900px) {  
   .linea{
-    left: 14.4rem;
+    left: 14.5rem;
     top: 100px;
   } 
 } 
@@ -147,7 +147,7 @@ input[type='range']::-webkit-slider-thumb {
 /* IPHONE 13 PRO MAX */
 @media only screen and (max-width: 500px) and (min-width: 428px) {  
   .linea{
-    left: 12.8rem;
+    left: 12.9rem;
   }
 }
 
