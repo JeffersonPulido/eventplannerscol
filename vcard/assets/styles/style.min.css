@@ -26,7 +26,6 @@ body {
 
 .mainContainer {
   background-color: #d9b090;
-  z-index: 5;
   position: relative;
   top: -3.5rem;
 }
