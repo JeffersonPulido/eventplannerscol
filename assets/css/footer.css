@@ -77,3 +77,21 @@ footer {
     font-family: 'Raleway';
     text-decoration: none;
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    footer{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 50%);
+        margin-top: -1rem;
+    }
+    .containerLogo img {
+        width: 50%;
+    }
+    .containerSocialNetwork i {
+        font-size: 2rem;
+    }
+    .footerText {
+        letter-spacing: 0px;
+    }
+}
