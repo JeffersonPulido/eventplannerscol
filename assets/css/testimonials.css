@@ -22,6 +22,8 @@
 
 .containerTestimonials {
     height: 45vh;
+    display: flex;
+    justify-content: center;
 }
 
 #box {
@@ -32,8 +34,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: absolute;
-    left: 25%;
     font-family: "Raleway";
     padding-bottom: 10%;
 }
@@ -132,10 +132,6 @@ button#prev {
     .wrapper {
         font-size: 14px;
     }
-
-    #box {
-        left: 10%;
-    }
 }
 
 /* TABLET */
@@ -144,12 +140,9 @@ button#prev {
 }
 
 /* DESKTOP BIG */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
     .containerTestimonials {
         width: 100%;
-    }
-    #box {
-        left: 33%;
     }
     footer {
         padding-bottom: 2rem;
@@ -164,7 +157,7 @@ button#prev {
 /* MOBILE SMALL */
 @media only screen and (max-width: 360px) {
     #box h1 {
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     .containerTestimonials {
         margin-bottom: 2rem;
