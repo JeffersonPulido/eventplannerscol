@@ -11,7 +11,7 @@
   <!-- Webpage Title -->
   <title>Home || Event Planners</title>
   <!-- Favicon  -->
-  <link rel="icon" href="./assets/icon/logo.ico" />
+  <link rel="icon" href="../icon/logo.ico" />
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -19,12 +19,12 @@
   <!-- AOS Animation -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/navbar.css">
-  <link rel="stylesheet" href="./assets/css/info.css">
-  <link rel="stylesheet" href="./assets/css/history.css">
-  <link rel="stylesheet" href="./assets/css/services.css">
-  <link rel="stylesheet" href="./assets/css/testimonials.css">
-  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/info.css">
+  <link rel="stylesheet" href="../css/history.css">
+  <link rel="stylesheet" href="../css/services.css">
+  <link rel="stylesheet" href="../css/testimonials.css">
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
@@ -34,13 +34,13 @@
       <input type="checkbox" id="nav-check">
       <!--MENU NAVBAR-->
       <div class="nav-links">
-        <a href="#">Inicio</a>
-        <a href="#services">Servicios</a>
-        <a href="#testimonials">Testimonios</a>
+        <a href="../../index.html">Inicio</a>
+        <a href="../../index.html#services">Servicios</a>
+        <a href="../../index.html#testimonials">Testimonios</a>
       </div>
       <!--LOGO NAVBAR-->
       <div class="nav-header">
-        <img class="logoP" src="assets/images/logo.jpg" alt="">
+        <img class="logoP" src="../images/logo.jpg" alt="">
       </div>
       <!--REDES NAVBAR-->
       <div class="socialNav">
@@ -60,58 +60,27 @@
     </nav>
   </header>
   <main>
-    <!--INIT PAGE INFORMATION-->
-    <section class="infoContainer" id="home">
-      <div class="imagesLeft zoomIn">
-        <img src="./assets/images/info.png" alt="">
+    <!--HISTORY-->
+    <section class="historyContainer" id="history">
+      <div class="titleContainer" data-aos="fade-right" data-aos-delay="1000">
+        Nuestra Historia
       </div>
-      <div class="textRight">
-        <p class="infoTitle bounceIn">Bienvenidos a</p>
-        <p class="infoTitlemin bounceInRight">Event Planners</p>
-        <p class="infoDesc">Te ayudamos a organizar el evento perfecto. Desde fiestas privadas hasta bodas o eventos
-          corporativos, ofrecemos un servicio de planificación de eventos profesional para todas sus necesidades.
-          Haremos de tu evento algo memorable.</p>
-        <div class="btnMore">
-          <a class="btn" href="assets/pages/history.html">Leer más</a>
-        </div>
+      <div class="contentContainer" data-aos="fade-up" data-aos-delay="1500">
+        Somos Laura Hernandez y Angie García,
+        Empezamos a hacer decoración en 2019 ¡Nuestra pasión por organizar un evento estaba en
+        su punto más alto! Nunca en un millón de años pensamos que estaríamos haciendo eventos y
+        estilizando globos, flores y telas para fiestas, pero acá estamos.
+        Una cosa que queríamos dominar para nuestros eventos eran los detalles que se relacionan
+        con el tema completo, los colores y las diferentes fuentes. Lo único en lo que realmente
+        queríamos mejorar era en el arte de hacer todo único; después de ser constantes,
+        finalmente lo hicimos. ¡Finalmente armamos nuestro emprendimiento! Es un momento de orgullo para nosotras.
+        Nuestro objetivo es seguir adelante y brindar el mejor servicio que podamos brindar como planificadoras de
+        eventos.
+        <span data-aos="fade-up" data-aos-delay="2000">Ahora vamos a hacer magia.</span>
       </div>
-    </section>
-    <!--SERVICES-->
-    <section id="services">
-      <div class="containerServices">
-        <h1 data-aos="zoom-in" data-aos-delay="300">Nuestros Servicios</h1>
-        <div class="row">
-          <div class="service" data-aos="flip-up" data-aos-delay="600">
-            <i class="fa-solid fa-list-check"></i>
-            <h2>Organizacion de Eventos</h2>
-            <p>Servicio profesional para planear y organizar todos los detalles de un evento de manera única.</p>
-          </div>
-          <div class="service" data-aos="flip-up" data-aos-delay="800">
-            <i class="fa-solid fa-calendar-days"></i>
-            <h2>Decoracion de Eventos</h2>
-            <p>Servicio para diseñar y crear una atmosfera única para cualquier tipo de evento.</p>
-          </div>
-          <div class="service" data-aos="flip-up" data-aos-delay="1000">
-            <i class="fa-solid fa-utensils"></i>
-            <h2>Servicios de Catering</h2>
-            <p>Servicio para preparar y servir comida y bebida para un evento y satisfacer a todos los invitados.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- TESTIMONIALS -->
-    <section id="testimonials" class="containerTestimonials">
-      <div id="box">
-        <h1 data-aos="zoom-in" data-aos-delay="300">Testimonios</h1>
-        <div class="wrapper">
-          <div data-aos="fade-down-right" data-aos-delay="300" class="testimonial-container" id="testimonial-container">
-            <div id="testimonial1" class="active">
-              <img src="" />
-            </div>
-          </div>
-          <button id="prev" onclick="prev()">&lt;</button>
-          <button id="next" onclick="next()">&gt;</button>
-        </div>
+      <!-- <div class="btnMore btnRight">
+        <a class="btn" href="#history">Leer más</a>
+      </div> -->
     </section>
   </main>
   <!--WAVE UP-->
@@ -187,8 +156,8 @@
   <!--FOOTER-->
   <footer>
     <div class="containerLogo">
-      <a href="#">
-        <img src="./assets/images/logo.png" alt="">
+      <a href="../../index.html">
+        <img src="../images/logo.png" alt="">
       </a>
     </div>
     <div class="containerSocialNetwork">

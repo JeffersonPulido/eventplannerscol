@@ -29,15 +29,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: var(--colorbackclaro);
-    margin-top: -0.5rem;
+    /* background-color: var(--colorbackclaro); */
+    margin-top: 2rem;
+    margin-bottom: -8rem;
     position: relative;
     padding: 0rem 1rem;
 }
 
 .titleContainer {
     font-size: 2rem;
-    color: white;
+    color: var(--colorletraoscuro);
     font-weight: 600;
     font-family: 'Raleway';
     display: flex;
@@ -53,14 +54,14 @@
     text-align: justify;
     font-size: 1.5rem;
     font-family: 'Raleway';
-    color: var(--colorgrisclaro);
+    color: var(--colornegro);
     margin: 1.5rem 10rem;
     flex-direction: column;
     cursor: default;
 }
 
 .contentContainer span {
-    color:white;
+    color: var(--colortitulos);
     text-align: center;
     font-size: 1.8rem;
     letter-spacing: 2px;
