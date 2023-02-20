@@ -20,7 +20,7 @@
     --colorletraclaro: #d7a87c;
 }
 
-.containerTestimonials{
+.containerTestimonials {
     height: 45vh;
 }
 
@@ -132,7 +132,41 @@ button#prev {
     .wrapper {
         font-size: 14px;
     }
+
     #box {
         left: 10%;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+}
+
+/* DESKTOP BIG */
+@media only screen and (min-width: 900px) {
+    .containerTestimonials {
+        width: 100%;
+    }
+    #box {
+        left: 33%;
+    }
+    footer {
+        padding-bottom: 2rem;
+    }
+}
+
+/* IPHONE 13 PRO MAX */
+@media only screen and (max-width: 500px) and (min-width: 428px) {
+
+}
+
+/* MOBILE SMALL */
+@media only screen and (max-width: 360px) {
+    #box h1 {
+        margin-bottom: 20px;
+    }
+    .containerTestimonials {
+        margin-bottom: 2rem;
     }
 }
