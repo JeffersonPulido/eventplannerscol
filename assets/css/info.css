@@ -53,6 +53,7 @@ p.infoTitle {
     color: var(--colortitulos);
     letter-spacing: 1px;
     cursor: default;
+    font-family: "stayWinter";
 }
 
 .infoTitlemin {

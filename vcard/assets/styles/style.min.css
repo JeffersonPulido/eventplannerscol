@@ -25,13 +25,15 @@ body {
 
 
 .mainContainer {
-  background-color: #d9b090;
+  /* background-color: #d9b090; */
+  background: rgb(211, 153, 33);
+  background: linear-gradient(0deg, rgba(211, 153, 33, 1) 10%, rgba(253, 214, 91, 1) 50%, rgba(211, 153, 33, 1) 90%);
   position: relative;
   top: -3.5rem;
 }
 
 .btn_download {
-  background-color: #bc8c68;
+  background-color: darkgoldenrod;
   color: #231f20;
   width: 90%;
   padding: 1rem 1.5rem;
@@ -39,17 +41,17 @@ body {
 }
 
 .btn_download:hover {
-  background-color: #a37367;
+  background-color: goldenrod;
   transition: 0.3s ease-in-out;
 }
 
 .actionsBtnSmall {
-  background-color: #bc8c68;
+  background-color: darkgoldenrod;
   color: #231f20;
 }
 
 .actionsBtnSmall:hover {
-  background-color: #a37367;
+  background-color: goldenrod;
   transition: 0.3s ease-in-out;
 }
 
@@ -252,7 +254,7 @@ main {
   margin-top: -6rem;
 }
 
-.jobtitle{
+.jobtitle {
   text-align: center;
   z-index: 15;
   color: #000000;
@@ -292,7 +294,7 @@ main {
   justify-content: center;
 }
 
-.App{
+.App {
   align-items: flex-end;
 }
 
@@ -437,7 +439,7 @@ footer a {
 
 /* DESKTOP BIG*/
 @media (min-width: 1200px) {
-  body{
+  body {
     overflow-y: auto;
   }
 }
