@@ -16,8 +16,12 @@
     box-sizing: border-box;
     /*VAR*/
     --colortitulos: goldenrod;
+    --darkgold: #d39921;
+    --lightgold: #fdd65b;
     --colorletraoscuro: #603813;
     --colorletraclaro: #d7a87c;
+    --colorgrisclaro: #ebd9c9;
+    --colornegro: #333333;
 }
 
 /*NAVBAR*/

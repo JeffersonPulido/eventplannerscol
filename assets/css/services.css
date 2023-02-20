@@ -16,8 +16,12 @@
     box-sizing: border-box;
     /*VAR*/
     --colortitulos: goldenrod;
+    --darkgold: #d39921;
+    --lightgold: #fdd65b;
     --colorletraoscuro: #603813;
     --colorletraclaro: #d7a87c;
+    --colorgrisclaro: #ebd9c9;
+    --colornegro: #333333;
 }
 
 .containerServices {
@@ -37,7 +41,7 @@
 
 .containerServices h1::after {
     content: '';
-    background: var(--colorletraclaro);
+    background: var(--darkgold);
     width: 20%;
     height: 5px;
     position: absolute;
@@ -60,13 +64,13 @@
     cursor: pointer;
     background: transparent;
     transition: transform 0.5s, background 0.5s;
-    border: 2px solid var(--colorletraclaro);
+    border: 2px solid var(--darkgold);
 }
 
 .service i {
     font-size: 40px;
     margin-bottom: 10px;
-    color: var(--colorletraclaro);
+    color: var(--darkgold);
 }
 
 .service h2 {
@@ -75,7 +79,7 @@
 }
 
 .service:hover {
-    background: var(--colorletraclaro);
+    background: var(--darkgold);
     color: #fff;
     transform: scale(1.05);
 }

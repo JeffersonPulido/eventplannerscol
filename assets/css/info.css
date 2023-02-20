@@ -16,6 +16,8 @@
     box-sizing: border-box;
     /*VAR*/
     --colortitulos: goldenrod;
+    --darkgold: #d39921;
+    --lightgold: #fdd65b;
     --colorletraoscuro: #603813;
     --colorletraclaro: #d7a87c;
     --colorgrisclaro: #ebd9c9;
@@ -42,15 +44,17 @@ main {
 .textRight {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin: 0rem 5rem;
+    margin: 0rem 2rem;
     cursor: default;
 }
 
 p.infoTitle {
     font-size: 3rem;
     font-weight: 600;
-    color: var(--colortitulos);
+    /* color: var(--colortitulos); */
+    background: -webkit-linear-gradient(var(--darkgold) ,var(--lightgold), var(--darkgold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
     cursor: default;
     font-family: "stayWinter";
@@ -117,6 +121,15 @@ p.infoDesc {
     font-size: 1.4rem;
     color: var(--colorletraoscuro);
     letter-spacing: 1px;
+    margin: 2rem 0rem;
+}
+
+.btnMore {
+    margin: 2rem 0rem;
+}
+
+.imgInfo{
+    width: 100%;
 }
 
 .btn {
