@@ -165,6 +165,9 @@ p.infoDesc {
 
 .btnMore {
     margin: 2rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 .imgInfo {
@@ -173,9 +176,9 @@ p.infoDesc {
 
 .btn {
     position: relative;
-    letter-spacing: 0.25em;
+    letter-spacing: 5px;
     margin: 0 auto;
-    padding: 1rem 2.5rem;
+    padding: 1rem 4rem;
     background: transparent;
     outline: none;
     font-size: 28px;
