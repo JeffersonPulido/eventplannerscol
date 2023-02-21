@@ -25,9 +25,31 @@
     scroll-behavior: smooth;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--lightgold) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--lightgold);
+    border-radius: 10px;
+    border: 3px none #ffffff;
+}
+
 /* body */
 main {
-    margin-top: 2.5rem;
+    margin-top: 2%;
 }
 
 /*Section Info*/
@@ -38,7 +60,12 @@ main {
     text-align: center;
     align-items: center;
     font-family: 'Raleway';
-    margin: 0rem 1rem;
+    padding: 0rem 1rem;
+    /* background-color: gainsboro; */
+    background-image: url('../images/info.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
 }
 
 .textRight {
@@ -52,12 +79,14 @@ p.infoTitle {
     font-size: 3rem;
     font-weight: 600;
     /* color: var(--colortitulos); */
-    background: -webkit-linear-gradient(var(--darkgold) ,var(--lightgold), var(--darkgold));
+    background: -webkit-linear-gradient(var(--darkgold), var(--lightgold), var(--darkgold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
     cursor: default;
     font-family: "stayWinter";
+    text-shadow: 8px 8px 25px var(--darkgold);
+    -webkit-text-stroke: .1px var(--lightgold);
 }
 
 .infoTitlemin {
@@ -67,12 +96,17 @@ p.infoTitle {
     font-family: 'Raleway';
     letter-spacing: 1.5px;
     border-bottom: 2px solid var(--colortitulos);
-    color: var(--colortitulos);
+    /* color: var(--colortitulos); */
     font-weight: 600;
     width: fit-content;
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
+    background: -webkit-linear-gradient(var(--darkgold), var(--lightgold), var(--darkgold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 8px 8px 25px var(--darkgold);
+    -webkit-text-stroke: .1px var(--lightgold);
 }
 
 .nav-links a {
@@ -122,13 +156,15 @@ p.infoDesc {
     color: var(--colorletraoscuro);
     letter-spacing: 1px;
     margin: 2rem 0rem;
+    background: #ebd9c9cc;
+    padding: 1%;
 }
 
 .btnMore {
     margin: 2rem 0rem;
 }
 
-.imgInfo{
+.imgInfo {
     width: 100%;
 }
 
@@ -147,9 +183,9 @@ p.infoDesc {
     font-weight: 400;
     z-index: 2;
     background-image: url('../images/backBtn.png');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .btn:hover {
@@ -388,12 +424,14 @@ p.infoDesc {
 @media screen and (max-width: 767px) {
     .infoContainer {
         grid-template-columns: none;
-        grid-template-rows: 1fr;
+        /* grid-template-rows: 1fr; */
+        margin-top: 8%;
     }
 
     .imagesLeft img {
         /* width: 80%; */
         display: none;
+        visibility: hidden;
     }
 
     .infoTitle::before {
@@ -409,7 +447,7 @@ p.infoDesc {
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
     .infoContainer {
-        margin: 8rem 1rem;
+        margin: -0.5rem 0rem;
     }
 
     p.infoTitle {
@@ -435,11 +473,34 @@ p.infoDesc {
 @media screen and (min-width: 767px) and (max-width: 1023px) {
     .infoContainer {
         grid-template-columns: none;
-        grid-template-rows: 1fr;
-        margin-top: 5rem;
+        /* grid-template-rows: 1fr; */
+        margin-top: 2rem;
     }
 
     .textRight {
-        margin-top: 2rem;
+        margin-top: -30rem;
+    }
+
+    p.infoTitle {
+        font-size: 5rem;
+    }
+
+    footer{
+        margin-top: -2rem;
+    }
+}
+
+/* IPHONE 13 PRO MAX */
+@media only screen and (max-width: 500px) and (min-width: 428px) {
+
+}
+
+/* MOBILE SMALL */
+@media only screen and (max-width: 360px) {
+    p.infoTitle{
+        font-size: 1.5rem;
+    }
+    .textRight{
+        margin: 0rem 1rem;
     }
 }
