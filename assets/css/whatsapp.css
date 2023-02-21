@@ -14,8 +14,9 @@
     width: 60px;
     height: 60px;
     top: 20px;
-    left: 20px;
-    background-color: #41a72d91;
+    right: 20px;
+    background: rgb(211, 153, 33);
+    background: linear-gradient(0deg, rgba(211, 153, 33, 1) 10%, rgba(253, 214, 91, 1) 50%, rgba(211, 153, 33, 1) 90%);
     color: white;
     border-radius: 50px;
     text-align: center;
