@@ -108,6 +108,8 @@ p.infoTitle {
     -webkit-text-fill-color: transparent;
     text-shadow: 8px 8px 25px var(--darkgold);
     -webkit-text-stroke: .1px var(--lightgold);
+    position: relative;
+    top: -2rem;
 }
 
 .nav-links a {
@@ -154,10 +156,10 @@ p.infoTitle {
 p.infoDesc {
     text-align: justify;
     font-size: 1.4rem;
-    color: var(--colorletraoscuro);
+    color: var(--colorgrisclaro);
     letter-spacing: 1px;
     margin: 2rem 0rem;
-    background: #ebd9c9cc;
+    background: #60381393;
     padding: 1%;
 }
 
@@ -177,11 +179,11 @@ p.infoDesc {
     background: transparent;
     outline: none;
     font-size: 28px;
-    color: var(--colorgrisclaro);
+    color: var(--colorletraoscuro);
     text-decoration: none;
     transition: .5s ease-in-out;
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: 600;
     z-index: 2;
     background-image: url('../images/backBtn.webp');
     background-repeat: no-repeat;
@@ -443,6 +445,10 @@ p.infoDesc {
     .btnMore {
         margin-top: 2rem;
     }
+    .infoTitlemin{
+        top: 0;
+        font-size: 1.5rem;
+    }
 }
 
 /* DESKTOP BIG*/
@@ -468,6 +474,10 @@ p.infoDesc {
         transition: transform 0.5s ease-in-out;
         top: 26rem;
     }
+    .infoTitlemin {
+        right: 5rem;
+        font-size: 1.5rem;
+    }
 }
 
 /* TABLET */
@@ -489,11 +499,17 @@ p.infoDesc {
     footer{
         margin-top: -2rem;
     }
+    .infoTitlemin {
+        font-size: 1.5rem;
+    }
 }
 
 /* IPHONE 13 PRO MAX */
 @media only screen and (max-width: 500px) and (min-width: 428px) {
-
+    .infoTitlemin{
+        top: 0;
+        font-size: 1.5rem;
+    }
 }
 
 /* MOBILE SMALL */
@@ -503,5 +519,9 @@ p.infoDesc {
     }
     .textRight{
         margin: 0rem 1rem;
+    }
+    .infoTitlemin{
+        top: 0;
+        font-size: 1rem;
     }
 }
