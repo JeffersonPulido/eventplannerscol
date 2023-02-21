@@ -532,3 +532,26 @@ p.infoDesc {
         font-size: 1rem;
     }
 }
+
+/* IPHONE 8 */
+@media only screen and (max-width: 427px) and (min-width: 375px) {
+    p.infoTitle{
+        font-size: 2rem;
+    }
+    .infoTitlemin {
+        top: 0;
+        font-size: 1.3rem;
+        text-shadow: 8px 8px 25px #ffffff00;
+    }
+    .infoContainer{
+        height: 85vh;
+    }
+    .textRight {
+        margin: 0rem 1rem;
+    }
+    .containerTestimonials {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+}

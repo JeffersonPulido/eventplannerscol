@@ -167,3 +167,12 @@ button#prev {
         margin-bottom: 2rem;
     }
 }
+
+/* IPHONE 8 */
+@media only screen and (max-width: 427px) and (min-width: 375px) {
+    .containerTestimonials {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+}
