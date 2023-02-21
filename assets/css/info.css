@@ -451,6 +451,10 @@ p.infoDesc {
     .infoTitlemin{
         top: 0;
         font-size: 1.5rem;
+        text-shadow: 8px 8px 25px #ffffff00;
+    }
+    p.infoTitle{
+        text-shadow: 8px 8px 25px #ffffff00;
     }
 }
 
