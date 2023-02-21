@@ -62,7 +62,8 @@ main {
     font-family: 'Raleway';
     padding: 0rem 1rem;
     /* background-color: gainsboro; */
-    background-image: url('../images/info.jpg');
+    /* background-image: url('../images/info.jpg'); */
+    background-image: url('../images/info.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
