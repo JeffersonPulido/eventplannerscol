@@ -176,19 +176,19 @@ p.infoDesc {
 
 .btn {
     position: relative;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     margin: 0 auto;
-    padding: 1rem 4rem;
+    padding: 0.5rem 2.5rem;
     background: transparent;
     outline: none;
-    font-size: 28px;
+    font-size: 25px;
     color: var(--colorletraoscuro);
     text-decoration: none;
     transition: .5s ease-in-out;
     font-family: 'Raleway';
     font-weight: 600;
     z-index: 2;
-    background-image: url('../images/backBtn.webp');
+    background-image: url(../images/backBtn.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
