@@ -33,3 +33,10 @@
     background-color: var(--colorletraclaro);
     color: var(--colorletraoscuro);
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .whatsapp{
+        top: 90px;
+    }
+}
