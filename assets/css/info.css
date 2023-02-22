@@ -456,6 +456,9 @@ p.infoDesc {
     p.infoTitle{
         text-shadow: 8px 8px 25px #ffffff00;
     }
+    p.infoDesc{
+        text-align: center;
+    }
 }
 
 /* DESKTOP BIG*/
