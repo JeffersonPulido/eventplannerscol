@@ -1,11 +1,11 @@
 @font-face {
   font-family: Raleway;
-  src: url(../../../assets/fonts/Raleway.ttf);
+  src: url(../fonts/Raleway.ttf);
 }
 
 @font-face {
   font-family: stayWinter;
-  src: url(../../../assets/fonts/stayWinter.otf);
+  src: url(../fonts/stayWinter.otf);
 }
 
 input[type='range']::-moz-range-track {
