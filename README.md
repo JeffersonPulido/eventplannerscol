@@ -3,7 +3,7 @@
 Pagina web para Event Planner Col, empresa dedicada a la gestion y planeacion de eventos nacionales.
 
 ## 🛠 Skills
-HTML, CSS, Javascript
+HTML, CSS, ReactJS
 
 ## Deployment
 
