@@ -1,12 +1,12 @@
 /*FONTS*/
 @font-face {
     font-family: Raleway;
-    src: url(../../../assets/fonts/Raleway.ttf);
+    src: url(../../../public/fonts/Raleway.ttf);
 }
 
 @font-face {
     font-family: stayWinter;
-    src: url(../../../assets/fonts/stayWinter.otf);
+    src: url(../../../public/fonts/stayWinter.otf);
 }
 
 /*ROOT*/
@@ -92,5 +92,19 @@
 @media screen and (max-width: 767px) {
     .containerServices h1 {
         margin-bottom: 20px;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .containerServices h1::after {
+        content: '';
+        background: var(--darkgold);
+        width: 14%;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

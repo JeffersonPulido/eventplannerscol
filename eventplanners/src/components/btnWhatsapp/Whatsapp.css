@@ -30,12 +30,10 @@
     transition: .2s ease-in-out;
 }
 
-.whatsapp:hover{
+.whatsapp:hover {
     background-color: var(--colorletraclaro);
     color: var(--colorletraoscuro);
 }
 
 /* MOBILE */
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}

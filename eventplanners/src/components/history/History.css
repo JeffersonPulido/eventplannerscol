@@ -1,13 +1,15 @@
 /*FONTS*/
+/*FONTS*/
 @font-face {
     font-family: Raleway;
-    src: url(../../../assets/fonts/Raleway.ttf);
+    src: url(../../../public/fonts/Raleway.ttf);
 }
 
 @font-face {
     font-family: stayWinter;
-    src: url(../../../assets/fonts/stayWinter.otf);
+    src: url(../../../public/fonts/stayWinter.otf);
 }
+
 
 /*ROOT*/
 * {

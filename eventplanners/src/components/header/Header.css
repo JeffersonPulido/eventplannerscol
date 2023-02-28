@@ -1,12 +1,12 @@
 /*FONTS*/
 @font-face {
     font-family: Raleway;
-    src: url(../../../assets/fonts/Raleway.ttf);
+    src: url(../../../public/fonts/Raleway.ttf);
 }
 
 @font-face {
     font-family: stayWinter;
-    src: url(../../../assets/fonts/stayWinter.otf);
+    src: url(../../../public/fonts/stayWinter.otf);
 }
 
 /*ROOT*/
@@ -64,10 +64,11 @@ main {
     padding: 0rem 1rem;
     /* background-color: gainsboro; */
     /* background-image: url('../images/info.jpg'); */
-    background-image: url('../images/info.webp');
+    background-image: url('../../assets/images/info.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
+    margin-top: 2%;
 }
 
 .textRight {
@@ -80,7 +81,7 @@ main {
 .infoTitle {
     font-size: 3rem;
     font-weight: 600;
-    color: var(--colorblanco); 
+    color: var(--colorblanco);
     letter-spacing: 2.5px;
     cursor: default;
     font-family: "stayWinter";
@@ -188,7 +189,7 @@ p.infoDesc {
     font-family: 'Raleway';
     font-weight: 600;
     z-index: 2;
-    background-image: url(../images/backBtn.webp);
+    background-image: url(../../assets/images/backBtn.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -448,16 +449,19 @@ p.infoDesc {
     .btnMore {
         margin-top: 2rem;
     }
-    .infoTitlemin{
+
+    .infoTitlemin {
         top: 0;
         font-size: 1.5rem;
         text-shadow: 8px 8px 25px #ffffff00;
     }
-    p.infoTitle{
+
+    p.infoTitle {
         color: var(--colorblanco);
         text-shadow: 0px 0px 10px var(--darkgold);
     }
-    p.infoDesc{
+
+    p.infoDesc {
         text-align: center;
     }
 }
@@ -465,7 +469,7 @@ p.infoDesc {
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
     .infoContainer {
-        margin: -0.5rem 0rem;
+        margin: 2rem 0rem;
     }
 
     p.infoTitle {
@@ -485,6 +489,7 @@ p.infoDesc {
         transition: transform 0.5s ease-in-out;
         top: 26rem;
     }
+
     .infoTitlemin {
         right: 5rem;
         font-size: 1.5rem;
@@ -507,9 +512,10 @@ p.infoDesc {
         font-size: 5rem;
     }
 
-    footer{
+    footer {
         margin-top: -2rem;
     }
+
     .infoTitlemin {
         font-size: 1.5rem;
     }
@@ -517,7 +523,7 @@ p.infoDesc {
 
 /* IPHONE 13 PRO MAX */
 @media only screen and (max-width: 500px) and (min-width: 428px) {
-    .infoTitlemin{
+    .infoTitlemin {
         top: 0;
         font-size: 1.5rem;
     }
@@ -525,13 +531,15 @@ p.infoDesc {
 
 /* MOBILE SMALL */
 @media only screen and (max-width: 360px) {
-    p.infoTitle{
+    p.infoTitle {
         font-size: 1.5rem;
     }
-    .textRight{
+
+    .textRight {
         margin: 0rem 1rem;
     }
-    .infoTitlemin{
+
+    .infoTitlemin {
         top: 0;
         font-size: 1rem;
     }
@@ -539,20 +547,24 @@ p.infoDesc {
 
 /* IPHONE 8 */
 @media only screen and (max-width: 427px) and (min-width: 375px) {
-    p.infoTitle{
+    p.infoTitle {
         font-size: 2rem;
     }
+
     .infoTitlemin {
         top: 0;
         font-size: 1.3rem;
         text-shadow: 8px 8px 25px #ffffff00;
     }
-    .infoContainer{
+
+    .infoContainer {
         height: 85vh;
     }
+
     .textRight {
         margin: 0rem 1rem;
     }
+
     .containerTestimonials {
         height: 60vh;
         display: flex;
