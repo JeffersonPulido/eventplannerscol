@@ -20,10 +20,10 @@ export const Navbar = () => {
           </div>
           {/* REDES NAVBAR */}
           <div className="socialNav">
-            <a href="https://www.tiktok.com/@eventplannerscol" target="_blank"><i className="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.tiktok.com/@event.planners.col" target="_blank"><i className="fa-brands fa-tiktok"></i></a>
             <a href="https://www.facebook.com/eventplannerscol/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/event.planners.col/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-            <a href="https://wa.me/+573228782459/?text=¡Hola!%20Me%20gustaría%20realizar%20una%20cotización%20por%20favor,%20gracias!" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.me/+573228782459/?text=Hola!%20Me%20gustaria%20realizar%20una%20cotizacion%20por%20favor,%20gracias!" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
           </div>
           {/* BTN NAVBAR HAMBURGUER */}
           <div className="nav-btn">
